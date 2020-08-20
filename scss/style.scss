@@ -1512,7 +1512,7 @@ textarea.form-control {
 }
 .testimony-wrap {
   display: block;
-  position: relative;
+  position: absolute;
   background: $light;
   padding: 0 20px;
   border-radius: 5px;
@@ -1520,7 +1520,6 @@ textarea.form-control {
     width: 100px;
     height: 100px;
     position: relative;
-    align-items: center;
     @include border-radius(40%);
   }
   .fa {
